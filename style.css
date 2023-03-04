@@ -1,5 +1,27 @@
-* {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 h1 {
   background-color: royalblue;
